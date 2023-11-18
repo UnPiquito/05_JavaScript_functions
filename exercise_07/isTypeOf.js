@@ -6,3 +6,25 @@
  * input: boolean (type)
  * output:
  */
+
+const isTypeOf = function (value, type) {
+  if (type === "array") {
+    return Array.isArray(value);
+  }
+
+  if (type === "string") {
+    return typeof value === "string";
+  }
+
+  if (type === "number") {
+    return typeof value === "number";
+  }
+
+  if (type === "boolean") {
+    return typeof value === "boolean";
+  }
+
+  return false;
+};
+
+export default isTypeOf;

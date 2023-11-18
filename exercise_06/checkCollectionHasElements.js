@@ -3,3 +3,21 @@
  * input: array (collection)
  * output: boolean
  */
+
+/**
+ *
+ * @param {array} collection
+ * @returns boolean
+ */
+
+const checkCollectionHasElements = function (collection) {
+  let hasElements = false;
+
+  if (collection.length > 0) {
+    hasElements = true;
+  }
+
+  return hasElements;
+};
+
+export default checkCollectionHasElements;
