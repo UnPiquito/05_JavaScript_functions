@@ -2,4 +2,4 @@
 
 import isGreaterThan from "./isGreaterThan.js";
 
-console.log(isGreaterThan(9, 8));
+console.log(isGreaterThan(6, 8));

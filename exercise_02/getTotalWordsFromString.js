@@ -11,7 +11,7 @@
  */
 
 const getTotalWordsFromString = function (sentence) {
-  const numberOfWords = sentence.length;
+  const numberOfWords = sentence.split(" ").length;
 
   return numberOfWords;
 };

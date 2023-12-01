@@ -13,21 +13,9 @@
  */
 
 const isGreaterThan = function (value, threshold) {
-  let valueIsBigger = false;
-
-  if (value > threshold) {
-    valueIsBigger = true;
-  }
-
-  if (value < threshold) {
-    valueIsBigger = false;
-  }
-
-  if (value === threshold) {
-    console.log("try another numbers");
-  }
-
-  return valueIsBigger;
+  
+ const result = value > threshold
+ return result;
 };
 
 export default isGreaterThan;
