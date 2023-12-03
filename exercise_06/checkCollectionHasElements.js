@@ -14,7 +14,7 @@ const checkCollectionHasElements = function (collection) {
   let hasElements = false;
 
   if (collection.length > 0) {
-    hasElements = true;
+    return (hasElements = true);
   }
 
   return hasElements;
