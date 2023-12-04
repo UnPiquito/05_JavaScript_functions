@@ -4,3 +4,18 @@
  * input: number (threshold)
  * output: number
  */
+
+/**
+ *
+ * @param {number} value
+ * @param {number} threshold
+ * @returns number
+ */
+
+const getDistanceFromThreshold = function (value, threshold) {
+  const distance = threshold - value;
+
+  return distance;
+};
+
+export default getDistanceFromThreshold;
